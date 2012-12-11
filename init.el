@@ -35,7 +35,8 @@
                      "lang-pack"
                      "power-pack"
                      "git-pack"
-                     "bindings-pack"))
+                     "bindings-pack"
+                     "python-pack"))
        (live-dir (file-name-as-directory "live"))
        (dev-dir  (file-name-as-directory "dev")))
   (setq live-packs (mapcar (lambda (p) (concat live-dir p)) pack-names) )
