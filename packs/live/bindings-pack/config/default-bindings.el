@@ -16,6 +16,13 @@
 ;;s - show popupwindows
 ;;w - window and buffer shortcuts
 
+
+;; alt is alt, cmd is meta
+(setq mac-option-key-is-meta nil)
+(setq mac-command-key-is-meta t)
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+
 ;; Should be able to eval-and-replace anywhere.
 (global-set-key (kbd "C-c e") 'eval-and-replace)
 
